@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/couleurs/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/couleurs"
+  "homepage": "https://github.com/IonicaBizau/couleurs",
+  "directories": {
+    "test": "test"
+  }
 }
