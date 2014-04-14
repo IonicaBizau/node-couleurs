@@ -1,6 +1,6 @@
 {
   "name": "couleurs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Convert any string to the nearest Terminal color using x256 library.",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,9 @@
   "homepage": "https://github.com/IonicaBizau/couleurs",
   "directories": {
     "test": "test"
-  }
+  },
+  "dependencies": {
+    "x256": "~0.0.1"
+  },
+  "devDependencies": {}
 }
