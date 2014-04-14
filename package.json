@@ -1,0 +1,25 @@
+{
+  "name": "couleurs",
+  "version": "0.1.0",
+  "description": "Convert any string to the nearest Terminal color using x256 library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IonicaBizau/couleurs"
+  },
+  "keywords": [
+    "colors",
+    "ascii",
+    "256",
+    "terminal"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/couleurs/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/couleurs"
+}
