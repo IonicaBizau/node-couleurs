@@ -27,5 +27,13 @@ console.log("Any string".rgb(...)
 
 The arguments of the `.rgb` method represent the rgb color values.
 
+## Changelog
+
+### v0.2.0
+ - Handle hex color codes
+
+### v0.1.x
+ - Initial releases.
+
 ## License
 See LICENSE file.

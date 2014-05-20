@@ -1,6 +1,6 @@
 {
   "name": "couleurs",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Convert any string to the nearest Terminal color using x256 library.",
   "main": "index.js",
   "scripts": {
