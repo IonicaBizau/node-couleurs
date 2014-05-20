@@ -8,6 +8,7 @@ Convert any string to the nearest Terminal color using x256 library.
 ```js
 var Couleurs = require ("couleurs");
 console.log("Hi!".rgb(255, 255, 0)); // outputs "Hi!"
+console.log("Hi!".rgb("#ffc")); // outputs "Hi!"
 ```
 
 ## Test
