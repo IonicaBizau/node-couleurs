@@ -17,6 +17,12 @@ Creates a colored string providing the color.
 ### Return:
 * **String** Colored string
 
+## `String.<style>()`
+`<style>` can be: `bold`, `italic`, `underline`, `inverse`, `strikethrough`.
+
+### Return:
+* **String** Styled string
+
 ## Example
 
 ```js
@@ -41,6 +47,8 @@ console.log("All combined"
     .strikethrough()
 )
 ```
+
+![](http://i.imgur.com/M83wW95.png)
 
 ## Changelog
 
