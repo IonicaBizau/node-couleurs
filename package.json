@@ -1,7 +1,7 @@
 {
   "name": "couleurs",
-  "version": "0.2.0",
-  "description": "Convert any string to the nearest Terminal color using x256 library.",
+  "version": "1.0.0",
+  "description": "Add some color and styles to your Node.JS strings.",
   "main": "index.js",
   "scripts": {
     "test": "node test/index.js"
