@@ -2,6 +2,8 @@ Couleurs
 ========
 Add some color and styles to your Node.JS strings. :smile:
 
+![](http://i.imgur.com/M83wW95.png)
+
 # Documentation
 
 ## `String.rgb(r, g, b)`
@@ -47,8 +49,6 @@ console.log("All combined"
     .strikethrough()
 )
 ```
-
-![](http://i.imgur.com/M83wW95.png)
 
 ## Changelog
 
