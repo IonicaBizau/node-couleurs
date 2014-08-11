@@ -45,7 +45,6 @@ for (var key in map) {
  * Converts a hex color code to rgb
  *
  * @param hex
- * @return
  */
 function hexToRgb (hex) {
     var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
