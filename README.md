@@ -54,7 +54,7 @@ console.log("All combined"
  - `inverse`
  - `strikethrough`
 
-### `couleurs.rgb(str, r, g, b)` or `String.prototype.rgb(r, g, b)`
+### `couleurs.rgb(str, r, g, b)` or `str.rgb(r, g, b)`
 Creates a colored string providing the color.
 
 #### Params
@@ -67,7 +67,7 @@ If String, it will be interpreted as HEX color.
 #### Return
 - **String** Colored string
 
-### `couleurs.<style>(str)` or `String.prototype.<style>()`
+### `couleurs.<style>(str)` or `str.<style>()`
 `<style>` can be: `bold`, `italic`, `underline`, `inverse`, `strikethrough`.
 
 #### Params
