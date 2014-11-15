@@ -78,7 +78,12 @@ If String, it will be interpreted as HEX color.
 
 ## Changelog
 
-### v1.0.0
+### 1.1.0
+ - Do not modify the `String.prototype` object by default. Fixes #1.
+ - The module exports a function.
+ - ~~Do not add colors/styles if the output is not a terminal. Fixes #2.~~
+
+### 1.0.0
  - Handle other styles (**bold**, *italic*, ~~strikethrough~~ etc)
 
 ### v0.2.0
