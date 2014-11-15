@@ -4,9 +4,9 @@ Add some color and styles to your Node.JS strings. :smile:
 
 ![](http://i.imgur.com/M83wW95.png)
 
-# Example
+## Example
 
-## Without modifying `String.prototype`
+### Without modifying `String.prototype`
 
 ```js
 var Couleurs = require("couleurs")();
@@ -19,7 +19,7 @@ console.log(Couleurs.italic("Italic"));
 // etc
 ```
 
-## Modifying `String.prototype`
+### Modifying `String.prototype`
 
 ```js
 var Couleurs = require("couleurs")(true);
@@ -38,14 +38,14 @@ console.log("All combined"
 );
 ```
 
-# Documentation
+## Documentation
 
-## `Couleurs(setStringProto)`
+### `Couleurs(setStringProto)`
 
-### Params
+#### Params
 - **Boolean|undefined** `setStringProto`: If `true`, the prototype of String class will be modified.
 
-### Return
+#### Return
 - **Object** An object containing the following methods:
  - `rgb`
  - `bold`
@@ -54,38 +54,38 @@ console.log("All combined"
  - `inverse`
  - `strikethrough`
 
-## `couleurs.rgb(str, r, g, b)` or `String.prototype.rgb(r, g, b)`
+### `couleurs.rgb(str, r, g, b)` or `String.prototype.rgb(r, g, b)`
 Creates a colored string providing the color.
 
-### Params
+#### Params
 - **String** `str`: The input string.
 - **String|Array|Number** `r`: If number, it will be the red value from RGB. If array, it should be an array of three numbers representing RGB values.
 If String, it will be interpreted as HEX color.
 - **Number** `g`: Green value
 - **Number** `b`: Blue value
 
-### Return
+#### Return
 - **String** Colored string
 
-## `couleurs.<style>(str)` or `String.prototype.<style>()`
+### `couleurs.<style>(str)` or `String.prototype.<style>()`
 `<style>` can be: `bold`, `italic`, `underline`, `inverse`, `strikethrough`.
 
-### Params
+#### Params
 - **String** `str`: The input string.
 
-### Return:
+#### Return:
 * **String** Styled string
 
-# Changelog
+## Changelog
 
-## v1.0.0
+### v1.0.0
  - Handle other styles (**bold**, *italic*, ~~strikethrough~~ etc)
 
-## v0.2.0
+### v0.2.0
  - Handle hex color codes
 
-## v0.1.x
+### v0.1.x
  - Initial releases.
 
-# License
-See LICENSE file.
+## License
+See the [LICENSE](/LICENSE) file.
