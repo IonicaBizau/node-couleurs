@@ -57,6 +57,7 @@ module.exports = function (setStringProto) {
      *
      * @name rgb
      * @function
+     * @param {String} str The input string.
      * @param {String|Array|Number} r If number, it will be the red value from RGB.
      * If array, it should be an array of three numbers representing RGB values.
      * If String, it will be interpreted as HEX color.
