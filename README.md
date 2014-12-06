@@ -2,7 +2,7 @@ Couleurs
 ========
 Add some color and styles to your Node.JS strings. :smile:
 
-![](http://i.imgur.com/M83wW95.png)
+![Couleurs](http://i.imgur.com/IVlWjsK.png)
 
 ## Example
 
