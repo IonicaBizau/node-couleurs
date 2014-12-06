@@ -11,9 +11,9 @@ Add some color and styles to your Node.JS strings. :smile:
 ```js
 var Couleurs = require("couleurs")();
 
-console.log(Couleurs.rgb("Red", [255, 0, 0]));
-console.log(Couleurs.rgb("Yellow", 255, 255, 0));
-console.log(Couleurs.rgb("Blue", "#2980b9"));
+console.log(Couleurs.fg("Red", [255, 0, 0]));
+console.log(Couleurs.fg("Yellow", 255, 255, 0));
+console.log(Couleurs.fg("Blue", "#2980b9"));
 console.log(Couleurs.bold("Bold"));
 console.log(Couleurs.italic("Italic"));
 // etc
@@ -29,7 +29,7 @@ console.log("Inverse".inverse());
 console.log("Strikethrough".strikethrough());
 
 console.log("All combined"
-    .rgb("#d35400")
+    .fg("#d35400")
     .bold()
     .italic()
     .underline()
@@ -54,8 +54,21 @@ console.log("All combined"
  - `inverse`
  - `strikethrough`
 
-### `couleurs.rgb(str, r, g, b)` or `str.rgb(r, g, b)`
-Creates a colored string providing the color.
+### `couleurs.fg(str, r, g, b)` or `str.fg(r, g, b)`
+Sets the foreground color.
+
+#### Params
+- **String** `str`: The input string.
+- **String|Array|Number** `r`: If number, it will be the red value from RGB. If array, it should be an array of three numbers representing RGB values.
+If String, it will be interpreted as HEX color.
+- **Number** `g`: Green value
+- **Number** `b`: Blue value
+
+#### Return
+- **String** Colored string
+
+### `couleurs.bg(str, r, g, b)` or `str.bg(r, g, b)`
+Sets the background color.
 
 #### Params
 - **String** `str`: The input string.
