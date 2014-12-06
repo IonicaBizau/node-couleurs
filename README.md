@@ -91,6 +91,11 @@ If String, it will be interpreted as HEX color.
 
 ## Changelog
 
+### 2.0.0
+ - Replaced `rgb` method with `fg`.
+ - Added `bg` method.
+ - Use unicode notation for ANSI formats.
+
 ### 1.1.0
  - Do not modify the `String.prototype` object by default. Fixes #1.
  - The module exports a function.
