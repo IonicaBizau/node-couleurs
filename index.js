@@ -3,11 +3,11 @@ var x256 = require("x256")
 
 // Constants
 const map = {
-    bold: ["\x1B[1m", "\x1B[22m"]
-  , italic: ["\x1B[3m", "\x1B[23m"]
-  , underline: ["\x1B[4m", "\x1B[24m"]
-  , inverse: ["\x1B[7m", "\x1B[27m"]
-  , strikethrough: ["\x1B[9m", "\x1B[29m"]
+    bold:           [ "\u001b[1m", "\u001b[22m" ]
+  , italic:         [ "\u001b[3m", "\u001b[23m" ]
+  , underline:      [ "\u001b[4m", "\u001b[24m" ]
+  , inverse:        [ "\u001b[7m", "\u001b[27m" ]
+  , strikethrough:  [ "\u001b[9m", "\u001b[29m" ]
 };
 
 /**!
@@ -52,10 +52,10 @@ function hexToRgb (hex) {
 module.exports = function (setStringProto) {
 
     /**
-     * rgb
-     * Creates a colored string providing the color.
+     * fg
+     * Sets the foreground color.
      *
-     * @name rgb
+     * @name fg
      * @function
      * @param {String} str The input string.
      * @param {String|Array|Number} r If number, it will be the red value from RGB.
@@ -65,16 +65,42 @@ module.exports = function (setStringProto) {
      * @param {Number} b Blue value
      * @return {String} Colored string
      */
-    function rgb(str, r, g, b) {
+    function fg(str, r, g, b) {
         if (r[0] === "#") {
-            return rgb.call(this, str, hexToRgb(r));
+            return fg.call(this, str, hexToRgb(r));
         }
 
-        return "\x1b[38;5;" + x256(r, g, b) + "m" + str + "\033[0m";
+        return "\u001b[38;5;" + x256(r, g, b) + "m" + str + "\033[0m";
+    }
+
+    /**
+     * bg
+     * Sets the background color.
+     *
+     * @name bg
+     * @function
+     * @param {String} str The input string.
+     * @param {String|Array|Number} r If number, it will be the red value from RGB.
+     * If array, it should be an array of three numbers representing RGB values.
+     * If String, it will be interpreted as HEX color.
+     * @param {Number} g Green value
+     * @param {Number} b Blue value
+     * @return {String} Colored string
+     */
+    function bg(str, r, g, b) {
+        if (r[0] === "#") {
+            return bg.call(this, str, hexToRgb(r));
+        }
+
+        return "\u001b[48;5;" + x256(r, g, b) + "m" + str + "\033[0m";
     }
 
     // Build couleurs object
-    var couleurs = { rgb: rgb };
+    var couleurs = {
+        fg: fg
+      , bg: bg
+    };
+
     for (var key in map) {
         (function (style, styleId) {
             couleurs[styleId] = function (str) {
