@@ -2,7 +2,7 @@
   "name": "couleurs",
   "version": "2.0.0",
   "description": "Add some color and styles to your Node.JS strings.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "node test/index.js"
   },
@@ -26,7 +26,7 @@
     "test": "test"
   },
   "dependencies": {
-    "x256": "~0.0.1"
+    "x256": "0.0.2"
   },
   "devDependencies": {}
 }
