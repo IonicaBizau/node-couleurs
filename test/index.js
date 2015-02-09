@@ -11,7 +11,7 @@ console.log(Couleurs.bold("Bold"));
 console.log(Couleurs.italic("Italic"));
 
 // Modify prototype
-require("../index")(true);
+require("../lib")(true);
 
 console.log("Underline".underline());
 console.log("Inverse".inverse());
