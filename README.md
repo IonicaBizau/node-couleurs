@@ -90,25 +90,8 @@ If String, it will be interpreted as HEX color.
 * **String** Styled string
 
 ## Changelog
+See the [releases page](https://github.com/IonicaBizau/couleurs/releases).
 
-### 2.0.0
- - Replaced `rgb` method with `fg`.
- - Added `bg` method.
- - Use unicode notation for ANSI formats.
-
-### 1.1.0
- - Do not modify the `String.prototype` object by default. Fixes #1.
- - The module exports a function.
- - ~~Do not add colors/styles if the output is not a terminal. Fixes #2.~~
-
-### 1.0.0
- - Handle other styles (**bold**, *italic*, ~~strikethrough~~ etc)
-
-### v0.2.0
- - Handle hex color codes
-
-### v0.1.x
- - Initial releases.
 
 ## License
 See the [LICENSE](/LICENSE) file.
