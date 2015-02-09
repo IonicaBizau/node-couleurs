@@ -1,5 +1,5 @@
-// Dependency
-var Couleurs = require("../index")();
+// Dependencies
+var Couleurs = require("../lib")();
 
 // No prototype modify
 console.log(Couleurs.fg("Red", [255, 0, 0]));
