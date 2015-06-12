@@ -27,7 +27,8 @@
     "test": "test"
   },
   "dependencies": {
-    "x256": "0.0.2"
+    "x256": "0.0.2",
+    "typpy": "1.0.0"
   },
   "blah": {
     "h_img": "http://i.imgur.com/W3rh7oh.png",
