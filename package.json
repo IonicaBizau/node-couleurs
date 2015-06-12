@@ -28,7 +28,8 @@
   },
   "dependencies": {
     "x256": "0.0.2",
-    "typpy": "1.0.0"
+    "typpy": "1.0.0",
+    "flat-colors": "2.0.0"
   },
   "blah": {
     "h_img": "http://i.imgur.com/W3rh7oh.png",

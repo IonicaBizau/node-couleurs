@@ -1,6 +1,6 @@
 // Dependencies
 var Couleurs = require("../lib")
-  , FlatColors = require("flatcolors")
+  , FlatColors = require("flat-colors")
   ;
 
 // Basic usage using a random flat color

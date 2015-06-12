@@ -1,7 +1,7 @@
 // Dependencies
 var Couleurs = require("../lib")
   , Assert = require("assert")
-  , FlatColors = require("flatcolors")
+  , FlatColors = require("flat-colors")
   ;
 
 // Default behavior
