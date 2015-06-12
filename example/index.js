@@ -16,7 +16,7 @@ Couleurs.proto();
 
 console.log("Underline".underline());
 console.log("Inverse".inverse());
-console.log("Strikethrough".strikethrough());
+console.log("Strikethrough".strike());
 
 console.log("All combined"
     .fg("#d35400")
@@ -24,5 +24,5 @@ console.log("All combined"
     .italic()
     .underline()
     .inverse()
-    .strikethrough()
+    .strike()
 );
