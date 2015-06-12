@@ -1,5 +1,5 @@
 // Dependencies
-var Couleurs = require("couleurs")
+var Couleurs = require("../lib")
   , Assert = require("assert")
   , FlatColors = require("flatcolors")
   ;
