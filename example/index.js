@@ -1,7 +1,13 @@
 // Dependencies
-var Couleurs = require("../lib");
+var Couleurs = require("../lib")
+  , FlatColors = require("flatcolors")
+  ;
 
-// Basic usage
+// Basic usage using a random flat color
+var colored = new Couleurs("Hello World").fg(FlatColors());
+console.log(colored.toString());
+
+// Other ways to color the strings
 console.log(Couleurs.fg("Red", [255, 0, 0]));
 console.log(Couleurs("Red foreground", [255, 0, 0]));
 console.log(Couleurs.fg("Yellow", 255, 255, 0));
