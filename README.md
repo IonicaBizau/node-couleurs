@@ -32,7 +32,7 @@ $ npm i couleurs
 ```js
 // Dependencies
 var Couleurs = require("couleurs")
-  , FlatColors = require("flatcolors")
+  , FlatColors = require("flat-colors")
   ;
 
 // Basic usage using a random flat color
