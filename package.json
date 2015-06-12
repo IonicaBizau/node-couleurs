@@ -1,6 +1,6 @@
 {
   "name": "couleurs",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Add some color and styles to your Node.JS strings.",
   "main": "lib/index.js",
   "scripts": {
