@@ -4,7 +4,7 @@
   "description": "Add some color and styles to your Node.JS strings.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "node test/index.js"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
@@ -17,20 +17,23 @@
     "terminal"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "MIT",
+  "license": "KINDLY",
   "bugs": {
     "url": "https://github.com/IonicaBizau/couleurs/issues"
   },
   "homepage": "https://github.com/IonicaBizau/couleurs",
   "directories": {
+    "example": "example",
     "test": "test"
   },
   "dependencies": {
     "x256": "0.0.2"
   },
   "blah": {
-      "h_img": "http://i.imgur.com/W3rh7oh.png",
-      "ex_img": "http://i.imgur.com/a0N34c8.png"
+    "h_img": "http://i.imgur.com/W3rh7oh.png",
+    "ex_img": "http://i.imgur.com/a0N34c8.png"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
 }
