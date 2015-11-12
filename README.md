@@ -1,6 +1,7 @@
 [![couleurs](http://i.imgur.com/W3rh7oh.png)](#)
 
 # couleurs [![Support this project][donate-now]][paypal-donations]
+
 Add some color and styles to your Node.JS strings.
 
 [![couleurs](http://i.imgur.com/M1D9mxT.png)](#)
