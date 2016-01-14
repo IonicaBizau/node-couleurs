@@ -1,8 +1,8 @@
 [![couleurs](http://i.imgur.com/W3rh7oh.png)](#)
 
-# couleurs [![Support this project][donate-now]][paypal-donations]
+# couleurs [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Travis](https://img.shields.io/travis/IonicaBizau/node-couleurs.svg)](https://travis-ci.org/IonicaBizau/node-couleurs/) [![Version](https://img.shields.io/npm/v/couleurs.svg)](https://www.npmjs.com/package/couleurs) [![Downloads](https://img.shields.io/npm/dt/couleurs.svg)](https://www.npmjs.com/package/couleurs) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-Add some color and styles to your Node.JS strings.
+> Add some color and styles to your Node.JS strings.
 
 [![couleurs](http://i.imgur.com/M1D9mxT.png)](#)
 
@@ -129,6 +129,8 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`git-issues1`](https://github.com/softwarescales/git-issues) by Gabriel Petrovay
 
  - [`git-stats-colors`](https://github.com/IonicaBizau/node-git-stats-colors)
+
+ - [`github-emojify`](https://github.com/IonicaBizau/github-emojifiy#readme)
 
  - [`github-stats`](https://github.com/IonicaBizau/github-stats)
 
