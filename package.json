@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "ansi-styles": "^2.2.0",
+    "ansy": "^1.0.0",
     "color-convert": "^1.0.0",
     "flat-colors": "3.0.0",
     "supports-color": "^3.1.2",

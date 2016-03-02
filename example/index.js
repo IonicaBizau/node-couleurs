@@ -9,7 +9,7 @@ console.log(colored.toString());
 
 // Other ways to color the strings
 console.log(Couleurs.fg("Red", [255, 0, 0]));
-debugger
+
 console.log(Couleurs("Red foreground", [255, 0, 0]));
 console.log(Couleurs.fg("Yellow", 255, 255, 0));
 console.log(Couleurs.fg("Blue", "#2980b9"));
