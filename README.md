@@ -21,29 +21,28 @@ $ npm i --save couleurs
 
 
 ```js
-// Dependencies
-var Couleurs = require("couleurs")
-  , FlatColors = require("flat-colors")
-  ;
+const colors = require("couleurs")
+    , FlatColors = require("flat-colors")
+    ;
 
 // Basic usage using a random flat color
-var colored = new Couleurs("Hello World").fg(FlatColors());
+let colored = new colors("Hello World").fg(FlatColors());
 console.log(colored.toString());
 
 // Other ways to color the strings
-console.log(Couleurs.fg("Red", [255, 0, 0]));
+console.log(colors.fg("Red", [255, 0, 0]));
 
-console.log(Couleurs("Red foreground", [255, 0, 0]));
-console.log(Couleurs.fg("Yellow", 255, 255, 0));
-console.log(Couleurs.fg("Blue", "#2980b9"));
-console.log(Couleurs.bg("Blue Background", "#2980b9"));
-console.log(Couleurs("Blue & Underline").fg("#2980b9").bold().underline().toString());
+console.log(colors("Red foreground", [255, 0, 0]));
+console.log(colors.fg("Yellow", 255, 255, 0));
+console.log(colors.fg("Blue", "#2980b9"));
+console.log(colors.bg("Blue Background", "#2980b9"));
+console.log(colors("Blue & Underline").fg("#2980b9").bold().underline().toString());
 
-console.log(Couleurs.bold("Bold"));
-console.log(Couleurs.italic("Italic"));
+console.log(colors.bold("Bold"));
+console.log(colors.italic("Italic"));
 
 // Modify prototype
-Couleurs.proto();
+colors.proto();
 
 console.log("Underline".underline());
 console.log("Inverse".inverse());
@@ -117,6 +116,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`bloggify`](https://github.com/Bloggify/bloggify-tools)—A set of tools for Bloggify administration.
  - [`bug-killer`](https://github.com/IonicaBizau/node-bug-killer)—Simple way to log messages in stdout or other stream.
  - [`cli-confeti`](https://github.com/IonicaBizau/cli-confeti#readme)—Confeti in your terminal.
+ - [`cli-confetti`](https://github.com/IonicaBizau/cli-confetti#readme)—Confetti in your terminal.
  - [`cli-gh-cal`](https://github.com/IonicaBizau/cli-gh-cal)—GitHub like calendar graphs in command line.
  - [`cli-github`](https://github.com/IonicaBizau/cli-github)—A fancy GitHub client for command line.
  - [`cli-pie`](https://github.com/IonicaBizau/node-cli-pie)—Generate pie charts in terminal and text mode.
@@ -142,7 +142,9 @@ If you are using this library in one of your projects, add it in this list. :spa
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
+
 [license]: http://showalicense.com/?fullname=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica%40gmail.com%3E%20(http%3A%2F%2Fionicabizau.net)&year=2014#license-mit
+
 [website]: http://ionicabizau.net
 [contributing]: /CONTRIBUTING.md
 [docs]: /DOCUMENTATION.md
