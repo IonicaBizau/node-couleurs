@@ -1,6 +1,6 @@
 {
   "name": "couleurs",
-  "version": "6.0.6",
+  "version": "6.0.7",
   "description": "Add some color and styles to your Node.JS strings.",
   "main": "lib/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "256",
     "terminal"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-couleurs/issues"
@@ -44,12 +44,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
