@@ -5,6 +5,7 @@ You can see below the API reference of this module.
 ### `Couleurs(setStringProto, fg)`
 
 #### Params
+
 - **Boolean** `setStringProto`: If `true`, the prototype of String class will be modified.
 - **String|Array** `fg`: An optional foreground color.
 
