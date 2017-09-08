@@ -1,6 +1,6 @@
 {
   "name": "couleurs",
-  "version": "6.0.8",
+  "version": "6.0.9",
   "description": "Add some color and styles to your Node.JS strings.",
   "main": "lib/index.js",
   "scripts": {
@@ -50,6 +50,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
