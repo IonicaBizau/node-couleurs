@@ -6,7 +6,7 @@ You can see below the API reference of this module.
 
 #### Params
 
-- **Boolean** `setStringProto`: If `true`, the prototype of String class will be modified.
+- **Boolean|undefined** `setStringProto`: If `true`, the prototype of String class will be modified.
 - **String|Array** `fg`: An optional foreground color.
 
 #### Return

@@ -21,7 +21,7 @@
 
 # couleurs
 
- [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Travis](https://img.shields.io/travis/IonicaBizau/node-couleurs.svg)](https://travis-ci.org/IonicaBizau/node-couleurs/) [![Version](https://img.shields.io/npm/v/couleurs.svg)](https://www.npmjs.com/package/couleurs) [![Downloads](https://img.shields.io/npm/dt/couleurs.svg)](https://www.npmjs.com/package/couleurs) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Travis](https://img.shields.io/travis/IonicaBizau/node-couleurs.svg)](https://travis-ci.org/IonicaBizau/node-couleurs/) [![Version](https://img.shields.io/npm/v/couleurs.svg)](https://www.npmjs.com/package/couleurs) [![Downloads](https://img.shields.io/npm/dt/couleurs.svg)](https://www.npmjs.com/package/couleurs) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/@johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 <a href="https://www.buymeacoffee.com/H96WwChMy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
 
@@ -125,6 +125,7 @@ console.log("All combined"
 
 
 
+
 ## :question: Get Help
 
 There are few ways to get help:
@@ -139,6 +140,8 @@ There are few ways to get help:
 
 
 
+
+
 ## :memo: Documentation
 
 
@@ -146,7 +149,7 @@ There are few ways to get help:
 
 #### Params
 
-- **Boolean** `setStringProto`: If `true`, the prototype of String class will be modified.
+- **Boolean|undefined** `setStringProto`: If `true`, the prototype of String class will be modified.
 - **String|Array** `fg`: An optional foreground color.
 
 #### Return
@@ -224,34 +227,37 @@ Thanks! :heart:
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - `bug-killer`
+ - `3abn`
+ - `@phaticusthiccy/image-to-text`
+ - `@well-crafted/git-unsaved`
  - `asciify-image`
- - `cli-pie`
- - `overlap`
- - `color-it`
- - `git-stats-colors`
- - `cli-gh-cal`
- - `cute-logger`
- - `cli-confeti`
  - `asciify-pixel`
  - `bible`
- - `fb-falafel`
- - `git-issues1`
- - `closeheat`
- - `csk-cli`
- - `tithe`
- - `image-asciify-cli`
- - `bloggify-tools`
- - `3abn`
  - `birthday`
+ - `bloggify-tools`
+ - `bug-killer`
+ - `cli-confeti`
  - `cli-confetti`
+ - `cli-gh-cal`
  - `cli-github`
+ - `cli-pie`
  - `cli-sunset`
+ - `closeheat`
+ - `color-it`
+ - `csk-cli`
+ - `cute-logger`
+ - `fb-falafel`
+ - `git-issues`
+ - `git-issues1`
+ - `git-stats-colors`
  - `git-unsaved`
- - `idea`
  - `github-emojify`
  - `github-stats`
- - `git-issues`
+ - `idea`
+ - `image-asciify-cli`
+ - `overlap`
+ - `terminal-rush`
+ - `tithe`
 
 
 
